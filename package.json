@@ -1,0 +1,20 @@
+{
+    "name": "aws-elasticbeanstalk-ec2-app",
+    "version": "1.0.0",
+    "description": "node-red demo app",
+    "main": "",
+    "scripts": {
+        "start": "./node_modules/.bin/node-red -s ./settings.js"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "dependencies": {
+        "node-red": "x.x.x",
+        "aws-sdk": "x.x.x",
+        "node-red-contrib-storage-s3": "x.x.x",
+        "when": "x.x.x"
+    },
+    "author": "",
+    "license": "ISC"
+}
